@@ -12,7 +12,7 @@ public class TimerBarController : MonoBehaviour {
     //ref to the images which will display the time in fill type
     public Transform fillBar;
     //ref to the fill amount or bar 
-    [HideInInspector]public float currentAmount;
+    public float currentAmount;
     //ref to the time
     private float timeT;
 
@@ -45,7 +45,7 @@ public class TimerBarController : MonoBehaviour {
     {
         //we reduces the time when quesition is asked with respect to game time
         currentAmount  -= (timeT) * Time.deltaTime;
-
+       
         fillBar.GetComponent<Image>().fillAmount = currentAmount;
 
         if (currentAmount <= 0)

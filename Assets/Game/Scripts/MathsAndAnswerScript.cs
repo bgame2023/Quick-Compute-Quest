@@ -9,7 +9,7 @@ public class MathsAndAnswerScript : MonoBehaviour {
 
     //we make this script instance
     public static MathsAndAnswerScript instance;
-
+    
     //its an enum which we help use to identify the current mode of game 
     public enum MathsType
     {
@@ -227,6 +227,7 @@ public class MathsAndAnswerScript : MonoBehaviour {
 
         //and we assign the math symbol to symbol image
         mathSymbolObject.sprite = mathSymbols[0];
+        mathSymbolObject.SetNativeSize();
 
         //now we assign the values to the ans buttons
         for (int i = 0; i < ansButtons.Length; i++)
@@ -277,7 +278,7 @@ public class MathsAndAnswerScript : MonoBehaviour {
         valueB.text = "" + b;
 
         mathSymbolObject.sprite = mathSymbols[1];
-
+        mathSymbolObject.SetNativeSize();
         for (int i = 0; i < ansButtons.Length; i++)
         {
             if (i == locationOfAnswer)
@@ -319,7 +320,7 @@ public class MathsAndAnswerScript : MonoBehaviour {
         valueB.text = "" + b;
 
         mathSymbolObject.sprite = mathSymbols[2];
-
+        mathSymbolObject.SetNativeSize();
         for (int i = 0; i < ansButtons.Length; i++)
         {
             if (i == locationOfAnswer)
@@ -389,7 +390,7 @@ public class MathsAndAnswerScript : MonoBehaviour {
         valueB.text = "" + b;
 
         mathSymbolObject.sprite = mathSymbols[3];
-
+        mathSymbolObject.SetNativeSize();
         for (int i = 0; i < ansButtons.Length; i++)
         {
             if (i == locationOfAnswer)

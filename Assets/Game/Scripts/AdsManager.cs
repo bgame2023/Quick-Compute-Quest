@@ -11,38 +11,7 @@ using System.Collections;
 
 public class AdsManager : MonoBehaviour {
 
-    private int i = 0;
 
-    // Use this for initialization
-    void Start()
-    {
-        i = 0;
-    }
 
-    // Update is called once per frame
-    void Update ()
-    {
 
-        if (GameManager.singleton.isGameOver == true)
-        {
-            /*
-            if (i == 0)
-                {
-                    ShowAd();
-                    i++;
-                }
-            */
-        }
-
-    }
-
-    /*
-    public void ShowAd()
-        {
-            if (Advertisement.IsReady())
-            {
-                Advertisement.Show();
-            }
-        }
-    */
 }

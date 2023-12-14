@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: 56a9d0727dcaeba4fbc5f49e1b46c789
+guid: 35b49ca297ac94542b28eec1a63fdf43
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: retry
-  - first:
-      213: 21300002
-    second: share
-  - first:
-      213: 21300004
-    second: home
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -39,12 +30,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: 16
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -72,9 +63,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -91,14 +82,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -132,64 +123,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: retry
+      name: btn gameover_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 241
-        height: 104
+        x: 108
+        y: 722
+        width: 912
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: efe863d22519ed54495cae2ee509a17f
+      internalID: 2111178926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: share
+      name: btn gameover_1
       rect:
         serializedVersion: 2
-        x: 248
-        y: 2
-        width: 204
-        height: 102
+        x: 778
+        y: 415
+        width: 912
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 4f2c6bf7ed7b3d147b1b4a5aed532c44
+      internalID: 77331039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home
+      name: btn gameover_2
       rect:
         serializedVersion: 2
-        x: 458
-        y: 2
-        width: 204
-        height: 102
+        x: 108
+        y: 108
+        width: 912
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: f2e8bf004a0632a45a2fd975b4b75274
+      internalID: -1018425363
       vertices: []
       indices: 
       edges: []
@@ -197,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -205,9 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      home: 21300004
-      retry: 21300000
-      share: 21300002
+      btn gameover_0: 2111178926
+      btn gameover_1: 77331039
+      btn gameover_2: -1018425363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

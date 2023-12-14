@@ -12,7 +12,7 @@ public class CheckButtonPress : MonoBehaviour {
     //ref for score
     private int score;
     private int hiScore;
-
+    
     //ref to background sprite
     public Image backgroundSprite;
 
@@ -63,13 +63,14 @@ public class CheckButtonPress : MonoBehaviour {
             GameManager.singleton.currentScore = score;
             ansSound.PlayOneShot(soundToPlay[0]);
             
+            
         }
         else
         {
             //if not we do not increase the score and do not reset the time
+           // TimerBarController.instance.currentAmount -= 0.2
             ansSound.PlayOneShot(soundToPlay[1]);
             StartCoroutine(ColorChange());
-            
         }
 
         //after we have answered the question we call the maths problem method to create new question
